@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 20px;
+    overflow-x: auto;
+    max-width: 100%;
+    height: calc(100vh - 72px);
+    
+}
+
+.container .column-container {
+    margin: 0 30px 0 5px;
+}
+
+.container .column-container .top {
+    max-width: 310px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+
+}
+
+.container .column-container .top .left {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+}
+
+.container .column-container .top .left p {
+    margin-left: 10px;
+    font-weight: 900;
+}
+
+.container .column-container .top .left .count {
+    margin-left: 10px;
+    color: #95989d;
+}
+
+.container .column-container .top .right {
+    display: flex;
+    align-items: center;
+}
+
+.container .column-container .top .right span {
+    font-size: 30px;
+    color: #95989d;
+    cursor: pointer;
+}
+
+.container .column-container .top .right .dots {
+    font-size: 30px;
+    color: #95989d;
+    margin-left: 10px;
+    position: relative;
+    top: -8px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-icon {
+    font-size: 16px;
+    margin: 0px 13px 0px 0px;
+}
+
+.title-text {
+ 
+    width: 21rem;
+    max-height: 2.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.card-container{
+    width: 29rem;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+.card-container .header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container .header h4 {
+    font-size: 12px;
+    color: #95989d;
+}
+
+.card-container .header .image {
+    /* background-color: aqua; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.card-container .header .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-container .header .image .large-dot {
+    color: #95989d;
+    position: relative;
+    top: -24px;
+    right: -8px;
+}
+
+.card-container p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.bottom {
+    margin-top: 4px;
+    display: flex;
+}
+
+.box {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    height: 20px;
+    padding: 0 3px 0 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.box1 {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    margin-left: 10px;
+    height: 20px;
+    padding: 0 6px 0 3px;
+    color: #95989d;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.dots {
+    font-size: 24px;
+    position: relative;
+    top: -14px;
+    color: #95989d;
+}
+
+.large-dot {
+    margin-right: 4px;
+    font-size: 25px;
+    position: relative;
+    top: -11px;
+}
+
+.word {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -14px;
+}
+
+#profile-image {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding-top: 3px;
+    color: #fff;
+    text-align: center;
+}
