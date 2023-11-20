@@ -27,7 +27,7 @@ const Navbar = ({ handleSortChange, sortOption, handleGroupingSortChange, groupi
   return (
     <div>
       <div className="nav">
-        <div style={{ border: '1px solid #95989d'}} onClick={toggleMenu}>
+        <div  onClick={toggleMenu}>
           <i className="fas fa-sliders-h fa-rotate-180" style={{ color: '#616365' }}></i>
           <span className='button-text'>Display</span>
           

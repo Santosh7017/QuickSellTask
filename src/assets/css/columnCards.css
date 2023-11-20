@@ -19,7 +19,8 @@
 }
 
 .container .column-container .top {
-    max-width: 310px;
+    font-size: 13px;
+    max-width: 316px;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -86,6 +87,7 @@
 
 
 .card-container{
+    box-shadow: 10px 5px 5px #dbd6d6b3;
     width: 29rem;
     margin: 5px auto;
     border: 1px solid #ccc;
